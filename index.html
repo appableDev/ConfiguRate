@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <!-- Custom CSS -->
+    <link href="libraries/scrolling-nav.css" rel="stylesheet">
+    <link rel="stylesheet" media="all" href="css/default.css" data-turbolinks-track="true" />
+    <link rel="stylesheet" media="all" href="css/style.css" data-turbolinks-track="true" />
+    <link rel="stylesheet" media="all" href="css/responsive.css" data-turbolinks-track="true" />
+    <meta content='IE=7; IE=8; IE=9' http-equiv='X-UA-Compatible'>
+    <title>
+      Configurate Web
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="Configurate Web" property='og:title'>
+    <meta content='' name='keywords'>
+    <meta content='' name='description'>
+    <link href='assets/favicon.ico' rel='shortcut icon'>
+    <meta name="csrf-param" content="authenticity_token" />
+    <meta name="csrf-token" content="NjyhowcaWU7NYOricXQ5ihRCqR8o0tT21LXN7E+wmg/X4wyJDQub+dajI49blzrwhmiy2qejdlkLgUcUyw5woQ==" />
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <header>
+        <div id="nav-bar" class="header-top">
+          <div class="row">
+            <div class="col-md-3 main-logo">
+              <h1>
+                  <img src="images/logo.png"/>
+                </h1>
+            </div>
+            <div class="col-md-9 menu-bar">
+              <a onclick="showMore()" class="collapse-btn"></a>
+              <ul onblur="showMore()" id="btn-menu" class="dropdown-menu-bar" tabindex='13'>
+                <li><a onMouseDown=preventBlur(event) class="main" href="#main">main</a></li>
+                <li><a onMouseDown=preventBlur(event) href="#intro">about</a></li>
+                <li><a onMouseDown=preventBlur(event) href="#download">Download</a></li>
+                <li><a onMouseDown=preventBlur(event) href="#customer">customers</a></li>
+                <li><a onMouseDown=preventBlur(event) href="#team">team</a></li>
+                <li><a onMouseDown=preventBlur(event) href="#contactTalk">contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </header>
+      <section class="main-option tabcontent" id="main">
+        <div class="main-banner">
+          <h3 class="main-title">Always</br> On</h3>
+          <p class="normal-text1">ConfiguRate helps you listen, learn and act using fast feedback</p>
+        </div>
+        <div class="connect">
+          <h3>Stay</br> Connected!</h3>
+          <form id="contact">
+            <p id="joinsms" class="error"></p>
+            <input type="type" id="fullName" name="username" placeholder="Full Name" />
+            <input type="email" id="email" name="email" placeholder="Email Address" />
+            <a onclick="valid()" class="btn-submit">Submit</a>
+          </form>
+        </div>
+      </section>
+      <div class="wrapper">
+        <section class="introduce tabcontent" id="intro">
+          <h3 class="intro-title">Survey platform that turns customer experiences into immediate insights</h3>
+          <div class="intro-detail">
+            <div class="row">
+              <div class="col-sm-12 col-md-6">
+                <img class="kiosk-img" src="images/kiosk.png" />
+              </div>
+              <div class="col-sm-12 col-md-6">
+                <div class="intro-step">
+                  <ul>
+                    <li class="step-item">
+                      <span class="number">1</span>
+                      <p class="normal-text">Decide what you want to know and when you want to know it</p>
+                    </li>
+                    <li class="step-item">
+                      <span class="number">2</span>
+                      <p class="normal-text">Deploy questions and gather feedback where the customer is</p>
+                    </li>
+                    <li class="step-item">
+                      <span class="number">3</span>
+                      <p class="normal-text">Keep a pulse in real time</p>
+                    </li>
+                    <li class="step-item">
+                      <span class="number">4</span>
+                      <p class="normal-text">Harness the power of fast feedback to improve your organization</p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="download" class="download tabcontent">
+          <div class="download-content row">
+            <div class="download-logo col-md-6">
+              <img class="img-responsive" src="images/configurate.png" alt="image">
+            </div>
+            <div class="download-info col-md-6">
+              <h3 class="download-title">Get the app!</h3>
+              <p class="download-description">Perhaps some short text can go here.</p>
+              <div class="download-link">
+                <ul class="">
+                  <li class="download-link-item"><a href=""><img class="img-responsive" src="images/iosStore.png" alt=""></a></li>
+                  <li class="download-link-item"><a href=""><img class="img-responsive" src="images/CHStore.png" alt=""></a></li>
+                </ul>
+              </div>
+              <div class="clearfix"></div>
+              <div class="download-url" style="display: none">
+                  <ul>
+                    <li class="download-url-item"><a href="">Windows</a></li>
+                    <li class="download-url-item"><a href="">Mac Os</a></li>
+                    <li class="download-url-item"><a href="">iOS SDK</a></li>
+                    <li class="download-url-item"><a href="">Android SDK</a></li>
+                  </ul>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+          </div>
+        </section>
+        <section class="client tabcontent" id="customer">
+          <div class="client-content">
+            <p class="title">CLIENTS</p>
+            <div class="client-slider">
+              <div class="brand-img fade">
+                <img src="images/client/integres.png">
+                <img src="images/client/DMEI.png">
+                <img src="images/client/stephen.png">
+                <img src="images/client/appable.png">
+              </div>
+              <div class="brand-img fade">
+                <img src="images/client/university.png">
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="process">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="industry">
+                <h3>INDUSTRIES</h3>
+                <img src="images/industry.png">
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="insight">
+                <h3>INSIGHTS</h3>
+                <ul>
+                  <li>
+                    <p>Customer Feedback</p>
+                  </li>
+                  <li>
+                    <p>Employee Satisfaction</p>
+                  </li>
+                  <li>
+                    <p>Market Research</p>
+                  </li>
+                  <li>
+                    <p>Point of Transaction</p>
+                  </li>
+                  <li>
+                    <p>Client Engagement</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="testimonies">
+          <h3>TESTIMONIES</h3>
+          <div class="slider">
+            <div class="row slider-item fade">
+              <div class="col-md-6 col-left">
+                <p class="normal-text1">ConfiguRate has been a key component in our quest to better understand how to serve students and help them graduate more quickly.
+                  <span class="position"><strong>— OU Administrator</strong></span>
+                </p>
+              </div>
+              <div class="col-md-6 col-right">
+                <p class="normal-text1">In healthcare we frequently base our administrative decisions off of email surveys that are not timely or statistically significant. ConfiguRate opens the door to listening to our patients and family members, and make real time improvements that elevate the quality of care
+                  <span class="position"><strong>— Healthcare Administrator</strong></span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="member tabcontent" id="team">
+          <h3 class="title">Incredible products are built by incredible teams</h3>
+          <ul>
+            <li>
+              <img src="images/KellyTran.png">
+              <div class="desc">
+                <p class="name">Kelly Tran</p>
+                <span>Founder</span>
+              </div>
+            </li>
+            <li>
+              <img src="images/ChrisShilling.png">
+              <div class="desc">
+                <p class="name">Chris Shilling</p>
+                <span>CEO</span>
+              </div>
+            </li>
+            <li>
+              <img src="images/MinhTran.png">
+              <div class="desc">
+                <p class="name">Minh Tran</p>
+                <span>Founder</span>
+              </div>
+            </li>
+            <li>
+              <img src="images/lisa.png">
+              <div class="desc">
+                <p class="name">Lisa Phan</p>
+                <span>Creative Director</span>
+              </div>
+            </li>
+            <li>
+              <img src="images/quan.png">
+              <div class="desc">
+                <p class="name">Quan Nguyen</p>
+                <span>CTO</span>
+              </div>
+            </li>
+            <li>
+              <img src="images/anh.png">
+              <div class="desc">
+                <p class="name">Anh Nguyen</p>
+                <span>Engineer Lead</span>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <section class="contact tabcontent" id="contactTalk">
+          <div class="row">
+            <div class="col-md-5 col-left">
+              <img class="icon-talk" src="images/talk.png"></img>
+              <div class="item">
+                <p>CALL</p>
+                <a>206.557.9901</a>
+              </div>
+              <div class="item">
+                <p>EMAIL</p>
+                <a>hi@configurateapp.com</a>
+              </div>
+              <div class="item">
+                <p>VISIT</p>
+                <a href="http://configurateapp.com/" target="_blank">www.configurateapp.com</a>
+              </div>
+            </div>
+            <div class="col-md-7 form-talk">
+              <h3 class="title">TALK TO US</h3>
+              <form id="talkToUs" name="contactTalk">
+                <p id="joinsmsTalk" class="errorTalk">
+                  <p>
+                    <input name="fname" type="type" id="fullNameTalk" placeholder="Full Name" />
+                    <input type="email" id="emailTalk" name="emailTalk" placeholder="Email Address" />
+                    <input style="border-bottom: none" type="text" id="phone" name="phone" placeholder="Phone Number" />
+                    <textarea name="comment" class="form-control" rows="22" id="comment" placeholder="Type message here…"></textarea>
+                    <a onclick="validTalk()" class="btn-submit">SEND</a>
+              </form>
+            </div>
+          </div>
+        </section>
+      </div>
+      <footer>
+        <h3>All Rights Reserved @Appable LLC.</h3>
+      </footer>
+    </div>
+    <script src="libraries/jquery.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

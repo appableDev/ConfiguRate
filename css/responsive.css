@@ -1,0 +1,456 @@
+@media screen and (max-width: 1382px) {
+  .form-talk {
+    margin-right: 0;
+    margin-top: 19px;
+  }
+}
+
+@media screen and (max-width: 1312px) {
+  .header-top .menu-bar li {
+    margin: 0 25px;
+  }
+  .header-top .login,
+  .form-talk button {
+    width: 150px;
+  }
+  .kiosk-img {
+    max-width: 459px;
+    margin: 0 auto;
+    display: block;
+  }
+  .industry img {
+    max-width: 420px;
+    margin: 0 auto;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1325px) {
+  .brand-img img {
+    margin-right: unset;
+    vertical-align: middle;
+    margin: 0 auto;
+    width: 24%;
+    padding: 0 20px;
+  }
+  .brand-img {
+    overflow: hidden;
+  }
+}
+
+@media screen and (max-width: 1282px) {
+  .slider {
+    width: 90%;
+  }
+  .carousel-control-next-icon {
+    right: -35px;
+  }
+  .carousel-control-prev-icon {
+    left: -35px;
+  }
+  .slider-item p {
+    max-width: 300px;
+    font-size: 18px;
+  }
+  .introduce .intro-title {
+    font-size: 28px;
+  }
+  .normal-text {
+    font-size: 20px;
+  }
+  .step-item p {
+    text-align: left;
+  }
+  .intro-detail {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 1244px) {
+  .header-top .login,
+  .form-talk button {
+    width: 130px;
+  }
+  .header-top .menu-bar li {
+    margin: 0 15px;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .form-talk h3 {
+    padding-left: 120px;
+  }
+  .contact .title:before {
+    left: 15px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .main-option {
+    padding-top: 250px;
+  }
+  .process {
+    width: 85%;
+  }
+  .main-banner .main-title {
+    font-size: 80px;
+  }
+  .process h3,
+  .testimonies h3 {
+    font-size: 26px;
+  }
+  .client .title {
+    font-size: 20px;
+  }
+  .header-top .menu-bar a:hover {
+    border-bottom: none;
+  }
+  .insight {
+    margin-top: 50px;
+  }
+  .slider-item .position {
+    padding-top: 30px;
+  }
+  .slider-item .col-left,
+  .slider-item .col-right {
+    width: 100%;
+    clear: both;
+    padding: 0;
+  }
+  .slider-item p {
+    max-width: 100%;
+    width: 100%;
+    font-size: 18px;
+  }
+  .slider-item .col-left p:before,
+  .slider-item .col-right p:before {
+    left: -45px;
+  }
+  .slider-item .col-left {
+    border: none;
+  }
+  .slider-item .col-left p {
+    float: none;
+  }
+  .slider-item .col-right p {
+    float: none;
+  }
+  .slider-item {
+    overflow: hidden;
+  }
+  .carousel-control-next-icon {
+    right: -20px;
+  }
+  .carousel-control-prev-icon {
+    left: -20px;
+  }
+  .contact .col-left {
+    max-width: 100%;
+    width: 100%;
+    float: none;
+  }
+  .form-talk {
+    float: none;
+    width: 90%;
+    margin: 50px auto 0 auto;
+  }
+  .testimonies {
+    margin: 100px 0;
+  }
+  .member {
+    width: 100%;
+  }
+  .slider-item p:before,
+  .slider-item p:after {
+    background-size: 50%;
+  }
+  .member img {
+    width: 100%;
+  }
+  .member .desc p {
+    font-size: 25px;
+    bottom: 40px;
+  }
+  .member .desc span {
+    font-size: 20px;
+    bottom: 10px;
+  }
+  .contact img {
+    display: block;
+    margin: 0 auto;
+  }
+  .contact .item p {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  .contact .col-left .item {
+    width: 80%;
+    margin: 50px auto 0 auto;
+  }
+  .dropdown-menu-bar {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    z-index: 999;
+    background: #fff;
+    display: none;
+  }
+  .dropdown-menu-bar.active {
+    display: block;
+  }
+  .header-top .menu-bar {
+    position: relative;
+    z-index: 0;
+  }
+  .header-top .menu-bar .dropdown-menu-bar li {
+    width: 100%;
+    margin: 0;
+  }
+  .header-top .menu-bar .dropdown-menu-bar a {
+    color: #26065f;
+    border-bottom: 2px solid #26065f;
+  }
+  .header-top .menu-bar .dropdown-menu-bar a.active {
+    color: #26065f;
+    background: #FAB37F;
+  }
+  .header-top .menu-bar a.collapse-btn {
+    display: block;
+    position: relative;
+  }
+  .header-top .main-logo {
+    float: left;
+    padding-top: 40px;
+  }
+  .header-top .menu-bar .collapse-btn {
+    float: right;
+    margin-right: 40px;
+  }
+  .header-top .login a {
+    margin-top: 12px;
+    margin-bottom: 20px;
+    padding: 10px 0;
+  }
+  .header-top .login {
+    margin-right: 20px;
+    position: absolute;
+    right: 0;
+    bottom: 4px;
+  }
+  .header-top .menu-bar a {
+    padding-left: 44px;
+  }
+  .member .title {
+    font-size: 30px;
+  }
+  .header-top {
+    z-index: 9999;
+  }
+  .form-talk {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .form-talk #talkToUs {
+    width: 85%;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1024px) {
+  .header-top .menu-bar a.collapse-btn:before {
+    position: absolute;
+    content: '';
+    background: url(../images/icon-menu.png) no-repeat;
+    width: 50px;
+    height: 41px;
+    right: 0;
+    bottom: 11px;
+  }
+  .header-top .menu-bar .collapse-btn {
+    float: right;
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .header-top .menu-bar a.collapse-btn:before {
+    position: absolute;
+    content: '';
+    background: url(../images/icon-menu.png) no-repeat;
+    width: 50px;
+    height: 41px;
+    right: 0;
+    bottom: 11px;
+  }
+  .dropdown-menu-bar {
+    display: none;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    z-index: 999;
+    background: #fff;
+    width: 100%;
+  }
+  .industry {
+    padding-bottom: 50px;
+  }
+  .intro-step {
+    width: 80%;
+    margin: 160px auto 0 auto;
+  }
+  .member li {
+    width: 100%;
+  }
+  .brand-img img:last-child {
+    margin: 10px auto;
+  }
+  .contact .item span {
+    font-size: 18px;
+  }
+  .contact .col-left {
+    padding: 135px 3px 90px 30px;
+  }
+}
+
+@media screen and (max-width: 668px) {
+  .contact .col-left .item {
+    width: 100%;
+  }
+  .header-top .main-logo {
+    padding-top: 20px;
+  }
+  .header-top .menu-bar {
+    clear: both;
+    margin-top: 20px;
+  }
+  .header-top .main-logo img {
+    display: block;
+    margin: 0 auto;
+    width: unset;
+    padding-top: 20px;
+    padding-left: 15px;
+  }
+  .header-top .login {
+    right: 0;
+  }
+  .header-top .login a {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .header-top .login,
+  .form-talk button {
+    max-width: 100px;
+  }
+  .header-top .menu-bar a.collapse-btn:before {
+    right: 0;
+  }
+  .header-top .menu-bar .collapse-btn {
+    margin-right: 0;
+    float: right;
+  }
+  .header-top .menu-bar a.collapse-btn:before {
+    bottom: 58px;
+  }
+  .dropdown-menu-bar {
+    top: 18px;
+  }
+  .main-banner {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  img {
+    width: 100%;
+  }
+  .header-top .main-logo {
+    padding-left: 0;
+    margin: 0 auto;
+  }
+  .contact img {
+    max-width: 152px;
+  }
+  .introduce .intro-title {
+    font-size: 25px;
+  }
+  .normal-text {
+    font-size: 16px;
+  }
+  .introduce .intro-title {
+    margin-bottom: 0;
+  }
+  .client,
+  .contact {
+    margin: 50px 0;
+  }
+  .testimonies,
+  .member .title {
+    margin-bottom: 50px;
+  }
+  .main-banner {
+    margin-top: 100px;
+  }
+  .client-slider {
+    width: 90%;
+  }
+  .main-banner .normal-text1 {
+    padding: 0 20px;
+  }
+  .form-talk .btn-submit {
+    padding: 12px 0;
+    width: 160px;
+  }
+  .intro-step {
+    width: 90%;
+  }
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-size: 70%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .carousel-control-next-icon {
+    right: -10px;
+  }
+  .carousel-control-prev-icon {
+    left: -10px;
+  }
+  .form-talk textarea {
+    max-height: 250px;
+  }
+  .member .title {
+    font-size: 24px;
+  }
+  .header-top .login {
+    right: 20px;
+    left: unset;
+    clear: both;
+    margin-right: 0;
+  }
+  .header-top .login a {
+    margin-bottom: 5px;
+    padding: 8px 0;
+  }
+  .header-top .menu-bar .collapse-btn {
+    margin-top: 5px;
+  }
+  .dropdown-menu-bar {
+    top: 18px;
+  }
+  .slider-item .col-left {
+    padding: 0;
+  }
+  .intro-step {
+    width: 100%;
+  }
+  .intro-step .step-item p {
+    padding-left: 25px;
+  }
+  .main-banner .main-title:before {
+    top: unset;
+    bottom: -15px;
+    right: 50%;
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+}
